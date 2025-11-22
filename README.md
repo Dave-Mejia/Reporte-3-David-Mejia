@@ -1,19 +1,23 @@
 # Reporte-3 Práctica ESP32 con DHT11 y Lcd
 Programación de un ESP32 con un sensor de temperatura DHT11 y un LCD 16x2(I2C)
+
 ## Introducción
-## Descripción
+### Descripción
 Utilizaremos l plataforma WOKWI para simular la adquisición de datos de temperatura y humedad del ambiente mediante un sensor DTH11 y la prorgramación del mismo en un microcontrolador ESP32, los datos se mostrarán en una pantalla LCD
 
-## Material Necesario
+### Material Necesario
 Para realizar esta practica necesitas lo siguiente
 
-Plataforma WOKWI
-Tarjeta ESP 32
-Sensor de temperatura y húmedad modelo DHT11
-Pantalla LCD 16x2(I2C)
+a. Plataforma WOKWI
+
+b.Tarjeta ESP 32
+
+c. Sensor de temperatura y húmedad modelo DHT11
+
+d. Pantalla LCD 16x2(I2C)
 
 ## Instrucciones
-### PREVIO
+### Previo
 1. Abrir la plataforma WOKWI.
 
 ### Preparación
@@ -58,19 +62,19 @@ void loop() {
 }
 ```
 
-
-
-
 4. Ir a la pestaña "Library manager" haer clic sobre el icon "+", buscar la libreria "DHT sensor library for ESPx" y agregarla
 ![](https://github.com/Dave-Mejia/Reporte-2/blob/main/Libreria%20DHT.png?raw=true)
 
-5. Ir al esquema de simulacón, dar clic al icono "+ (add new part)", buscar el sensor DTH11 y agregar
-6. Ir al esquema de simulacón, dar clic al icono "+ (add new part)", buscar la pantalla LCD 16x2(I2C)
-   
-7. Colocar el sensor y la pantalla sobre el esquema de simulación y conectar como indica la figura de abajo
+5. Ir al esquema de simulacón, dar clic al icono "+ (add new part)"
+
+7. Ir al esquema de simulacón, dar clic al icono "+ (add new part)", buscar la pantalla LCD 16x2(I2C)
+![](
+
+  
+9. Colocar el sensor y la pantalla sobre el esquema de simulación y conectar como indica la figura de abajo
 ![](https://github.com/Dave-Mejia/Reporte-3-David-Mejia/blob/main/Conexion%20Tarjeta%20ESP32,%20Sensor%20DHT22%20y%20pantalla%20LCD.png?raw=true)
 
-8. Agregar al codigo los siguietes codigos al programa para añadir mensajes adicionales como "bienvenido" "al modulo 5"
+10. Agregar al codigo los siguietes codigos al programa para añadir mensajes adicionales como "bienvenido" "al modulo 5"
      lcd.clear();
      lcd.setCursor(2, 1);
      lcd.print("Bienvendos");
@@ -129,7 +133,7 @@ void loop() {
 }
 ```
 
-### Operación
+## Operación
 9. Iniciar simulador dando clic en el icono "play"
 10. Visualizar los datos en el monitor serial.
 11. Colocar la temperatura y humedad dando doble click al sensor DHT11
