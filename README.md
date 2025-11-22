@@ -134,6 +134,7 @@ OPERACION
 ## Resultados
 Cuando haya funcionado, verás los valores dentro del monitor serial como se muestra en la siguente imagen.
 ![](https://github.com/Dave-Mejia/Reporte-3-David-Mejia/blob/main/Resultado%20ESP32%20sensor%20DTH22%20y%20pantalla%20LCD.png?raw=true)
+![](https://github.com/Dave-Mejia/Reporte-3-David-Mejia/blob/main/Resultado%20ESP32%20sensor%20DTH22%20y%20pantalla%20LCD%202.png?raw=true)
 
 ## Créditos
 Ralizado por el Ingeniero David Mejía
