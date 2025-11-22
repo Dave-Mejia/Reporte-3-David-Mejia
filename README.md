@@ -63,9 +63,10 @@ void loop() {
 ```
 
 4. Ir a la pestaña "Library manager" haer clic sobre el icon "+", buscar la libreria "DHT sensor library for ESPx" y agregarla
+5. 
 ![](https://github.com/Dave-Mejia/Reporte-2/blob/main/Libreria%20DHT.png?raw=true)
 
-5. Ir al esquema de simulacón, dar clic al icono "+ (add new part)"
+6. Ir al esquema de simulacón, dar clic al icono "+ (add new part)"
    
 ![](https://github.com/Dave-Mejia/Reporte-3-David-Mejia/blob/main/Add%20new%20part.png?raw=true)
 
@@ -76,12 +77,16 @@ void loop() {
 7. De igual manera Buscar la pantalla LCD 16x2(I2C) y agregar
   
 9. Colocar el sensor y la pantalla sobre el esquema de simulación y conectar como indica la figura de abajo
+10. 
 ![](https://github.com/Dave-Mejia/Reporte-3-David-Mejia/blob/main/Conexion%20Tarjeta%20ESP32,%20Sensor%20DHT22%20y%20pantalla%20LCD.png?raw=true)
 
-10. Agregar al codigo los siguietes codigos al programa para añadir mensajes adicionales como "bienvenido" "al modulo 5"
+11. Agregar al codigo los siguietes codigos al programa para añadir mensajes adicionales como "bienvenido" "al modulo 5"
      lcd.clear();
+    
      lcd.setCursor(2, 1);
+    
      lcd.print("Bienvendos");
+    
      delay(1000);
 
 ```
