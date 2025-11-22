@@ -66,7 +66,7 @@ void loop() {
 6. Ir al esquema de simulacón, dar clic al icono "+ (add new part)", buscar la pantalla LCD 16x2(I2C)
    
 7. Colocar el sensor y la pantalla sobre el esquema de simulación y conectar como indica la figura de abajo
-![](
+![](https://github.com/Dave-Mejia/Reporte-3-David-Mejia/blob/main/Conexion%20Tarjeta%20ESP32,%20Sensor%20DHT22%20y%20pantalla%20LCD.png?raw=true)
 
 
 OPERACION
@@ -76,7 +76,7 @@ OPERACION
 
 ## Resultados
 Cuando haya funcionado, verás los valores dentro del monitor serial como se muestra en la siguente imagen.
-![](https://github.com/Dave-Mejia/Reporte-2/blob/main/Simulacion%20de%20Tarjeta%20ESP%2032%20con%20sensor%20DTH11.png?raw=true)
+![](
 
 ## Créditos
 Ralizado por el Ingeniero David Mejía
