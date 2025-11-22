@@ -66,7 +66,7 @@ void loop() {
 
 ![](https://github.com/Dave-Mejia/Reporte-2/blob/main/Libreria%20DHT.png?raw=true)
 
-5. De la misma manera agregar la librería
+5. De la misma manera agregar la librería "LiquidCrystal I2C" para la pantalla LCD
 
 ![](https://github.com/Dave-Mejia/Reporte-3-David-Mejia/blob/main/Libreria%20Pantalla%20LCD%20Liquid%20cristal.png?raw=true)
 
