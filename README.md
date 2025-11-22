@@ -21,8 +21,8 @@ d. Pantalla LCD 16x2(I2C)
 1. Abrir la plataforma WOKWI.
 
 ### Preparación
-3. Ir a la pestaña de sketch.ino y borrar el codigo e programación predeterminado
-4. Abrir la terminal de programación y colocar la siguente programación:
+2. Ir a la pestaña de sketch.ino y borrar el codigo e programación predeterminado
+3. Abrir la terminal de programación y colocar la siguente programación:
 ```
 #include "DHTesp.h"
 #include <LiquidCrystal_I2C.h>
@@ -70,7 +70,7 @@ void loop() {
 
 ![](https://github.com/Dave-Mejia/Reporte-3-David-Mejia/blob/main/Libreria%20Pantalla%20LCD%20Liquid%20cristal.png?raw=true)
 
-7. Ir al esquema de simulacón, dar clic al icono "+ (add new part)"
+6. Ir al esquema de simulacón, dar clic al icono "+ (add new part)"
    
 ![](https://github.com/Dave-Mejia/Reporte-3-David-Mejia/blob/main/Add%20new%20part.png?raw=true)
 
@@ -78,12 +78,12 @@ void loop() {
 
 ![](https://github.com/Dave-Mejia/Reporte-3-David-Mejia/blob/main/Add%20new%20part%202B.png?raw=true)
 
-7. De igual manera Buscar la pantalla LCD 16x2(I2C) y agregar
+8. De igual manera Buscar la pantalla LCD 16x2(I2C) y agregar
   
 9. Colocar el sensor y la pantalla sobre el esquema de simulación y conectar como indica la figura de abajo 
 ![](https://github.com/Dave-Mejia/Reporte-3-David-Mejia/blob/main/Conexion%20Tarjeta%20ESP32,%20Sensor%20DHT22%20y%20pantalla%20LCD.png?raw=true)
 
-11. Agregar los siguietes codigos al programa para añadir mensajes adicionales como "bienvenido" "al modulo 5"
+10. Agregar los siguietes codigos al programa para añadir mensajes adicionales como "bienvenido" "al modulo 5"
      lcd.clear();
     
      lcd.setCursor(2, 1);
@@ -146,13 +146,13 @@ void loop() {
 ```
 
 ## Operación
-9. Iniciar simulador dando clic en el icono "start simulation"
+11. Iniciar simulador dando clic en el icono "start simulation"
 
 ![](https://github.com/Dave-Mejia/Reporte-3-David-Mejia/blob/main/play.png?raw=true)
 
 
-11. Visualizar los datos en el monitor serial.
-12. Colocar la temperatura y humedad dando doble click al sensor DHT22
+12. Visualizar los datos en el monitor serial.
+13. Colocar la temperatura y humedad dando doble click al sensor DHT22
 
 ## Resultados
 Cuando haya funcionado, verás los valores dentro del monitor serial como se muestra en la siguente imagen.
