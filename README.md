@@ -1,4 +1,4 @@
-# Reporte-3 Práctica ESP32 con DHT22 y Lcd
+# Reporte-3 Práctica ESP32 con DHT22 y LCD
 Programación de un ESP32 con un sensor de temperatura DHT22 y un LCD 16x2(I2C)
 
 ## Introducción
@@ -81,7 +81,7 @@ void loop() {
 8. De igual manera Buscar la pantalla LCD 16x2(I2C) y agregar
   
 9. Colocar el sensor y la pantalla sobre el esquema de simulación y conectar como indica la figura de abajo 
-![](https://github.com/Dave-Mejia/Reporte-3-David-Mejia/blob/main/Conexion%20Tarjeta%20ESP32,%20Sensor%20DHT22%20y%20pantalla%20LCD.png?raw=true)
+![](https://github.com/Dave-Mejia/Reporte-3-David-Mejia/blob/main/Conexion%20Tarjeta%20ESP32,%20Sensor%20DHT22%20y%20pantalla%20LCD%20B.png?raw=true)
 
 10. Agregar los siguietes codigos al programa para añadir mensajes adicionales como "bienvenido" "al modulo 5"
      lcd.clear();
