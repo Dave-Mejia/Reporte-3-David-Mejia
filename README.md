@@ -66,6 +66,7 @@ void loop() {
 ![](https://github.com/Dave-Mejia/Reporte-2/blob/main/Libreria%20DHT.png?raw=true)
 
 5. Ir al esquema de simulacón, dar clic al icono "+ (add new part)"
+![](https://github.com/Dave-Mejia/Reporte-3-David-Mejia/blob/main/Add%20new%20part.png?raw=true)
 
 7. Ir al esquema de simulacón, dar clic al icono "+ (add new part)", buscar la pantalla LCD 16x2(I2C)
 ![](
