@@ -76,8 +76,7 @@ void loop() {
 
 7. De igual manera Buscar la pantalla LCD 16x2(I2C) y agregar
   
-9. Colocar el sensor y la pantalla sobre el esquema de simulación y conectar como indica la figura de abajo
- 
+9. Colocar el sensor y la pantalla sobre el esquema de simulación y conectar como indica la figura de abajo 
 ![](https://github.com/Dave-Mejia/Reporte-3-David-Mejia/blob/main/Conexion%20Tarjeta%20ESP32,%20Sensor%20DHT22%20y%20pantalla%20LCD.png?raw=true)
 
 11. Agregar al codigo los siguietes codigos al programa para añadir mensajes adicionales como "bienvenido" "al modulo 5"
@@ -143,7 +142,9 @@ void loop() {
 ```
 
 ## Operación
-9. Iniciar simulador dando clic en el icono "start sil¿ulation"
+9. Iniciar simulador dando clic en el icono "start simulation"
+
+![](https://github.com/Dave-Mejia/Reporte-3-David-Mejia/blob/main/play.png?raw=true)
 
 
 11. Visualizar los datos en el monitor serial.
