@@ -72,7 +72,7 @@ void loop() {
 
 7. Buscar el sensor DHT 22 y agregar
 
-![](https://github.com/Dave-Mejia/Reporte-3-David-Mejia/blob/main/Add%20new%20part%202.png?raw=true)
+![](https://github.com/Dave-Mejia/Reporte-3-David-Mejia/blob/main/Add%20new%20part%202B.png?raw=true)
 
 7. De igual manera Buscar la pantalla LCD 16x2(I2C) y agregar
   
