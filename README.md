@@ -66,11 +66,14 @@ void loop() {
 ![](https://github.com/Dave-Mejia/Reporte-2/blob/main/Libreria%20DHT.png?raw=true)
 
 5. Ir al esquema de simulacón, dar clic al icono "+ (add new part)"
+   
 ![](https://github.com/Dave-Mejia/Reporte-3-David-Mejia/blob/main/Add%20new%20part.png?raw=true)
 
-7. Ir al esquema de simulacón, dar clic al icono "+ (add new part)", buscar la pantalla LCD 16x2(I2C)
-![](
+7. Buscar el sensor DHT 22 y agregar
 
+![](https://github.com/Dave-Mejia/Reporte-3-David-Mejia/blob/main/Add%20new%20part%202.png?raw=true)
+
+7. De igual manera Buscar la pantalla LCD 16x2(I2C) y agregar
   
 9. Colocar el sensor y la pantalla sobre el esquema de simulación y conectar como indica la figura de abajo
 ![](https://github.com/Dave-Mejia/Reporte-3-David-Mejia/blob/main/Conexion%20Tarjeta%20ESP32,%20Sensor%20DHT22%20y%20pantalla%20LCD.png?raw=true)
