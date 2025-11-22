@@ -19,6 +19,7 @@ Pantalla LCD 16x2(I2C)
 ### Preparación
 3. Ir a la pestaña de sketch.ino y borrar el codigo e programación predeterminado
 4. Abrir la terminal de programación y colocar la siguente programación:
+```
 #include "DHTesp.h"
 #include <LiquidCrystal_I2C.h>
 #define I2C_ADDR    0x27
@@ -55,6 +56,7 @@ void loop() {
 
   delay(1000);
 }
+```
 
 
 
@@ -74,6 +76,7 @@ void loop() {
      lcd.print("Bienvendos");
      delay(1000);
 
+```
 #include "DHTesp.h"
 #include <LiquidCrystal_I2C.h>
 #define I2C_ADDR    0x27
@@ -124,7 +127,7 @@ void loop() {
 
   delay(1000);
 }
-
+```
 
 ### Operación
 9. Iniciar simulador dando clic en el icono "play"
