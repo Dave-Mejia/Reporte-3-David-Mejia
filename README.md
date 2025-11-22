@@ -1,5 +1,5 @@
-# Reporte-3 Práctica ESP32 con DHT11 y Lcd
-Programación de un ESP32 con un sensor de temperatura DHT11 y un LCD 16x2(I2C)
+# Reporte-3 Práctica ESP32 con DHT22 y Lcd
+Programación de un ESP32 con un sensor de temperatura DHT22 y un LCD 16x2(I2C)
 
 ## Introducción
 ### Descripción
@@ -12,7 +12,7 @@ a. Plataforma WOKWI
 
 b.Tarjeta ESP 32
 
-c. Sensor de temperatura y húmedad modelo DHT11
+c. Sensor de temperatura y húmedad modelo DHT22
 
 d. Pantalla LCD 16x2(I2C)
 
@@ -63,7 +63,7 @@ void loop() {
 ```
 
 4. Ir a la pestaña "Library manager" haer clic sobre el icon "+", buscar la libreria "DHT sensor library for ESPx" y agregarla
-5. 
+
 ![](https://github.com/Dave-Mejia/Reporte-2/blob/main/Libreria%20DHT.png?raw=true)
 
 6. Ir al esquema de simulacón, dar clic al icono "+ (add new part)"
@@ -77,7 +77,7 @@ void loop() {
 7. De igual manera Buscar la pantalla LCD 16x2(I2C) y agregar
   
 9. Colocar el sensor y la pantalla sobre el esquema de simulación y conectar como indica la figura de abajo
-10. 
+ 
 ![](https://github.com/Dave-Mejia/Reporte-3-David-Mejia/blob/main/Conexion%20Tarjeta%20ESP32,%20Sensor%20DHT22%20y%20pantalla%20LCD.png?raw=true)
 
 11. Agregar al codigo los siguietes codigos al programa para añadir mensajes adicionales como "bienvenido" "al modulo 5"
@@ -143,9 +143,11 @@ void loop() {
 ```
 
 ## Operación
-9. Iniciar simulador dando clic en el icono "play"
-10. Visualizar los datos en el monitor serial.
-11. Colocar la temperatura y humedad dando doble click al sensor DHT11
+9. Iniciar simulador dando clic en el icono "start sil¿ulation"
+
+
+11. Visualizar los datos en el monitor serial.
+12. Colocar la temperatura y humedad dando doble click al sensor DHT22
 
 ## Resultados
 Cuando haya funcionado, verás los valores dentro del monitor serial como se muestra en la siguente imagen.
