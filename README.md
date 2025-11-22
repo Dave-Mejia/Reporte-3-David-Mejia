@@ -69,12 +69,12 @@ void loop() {
 ![](https://github.com/Dave-Mejia/Reporte-3-David-Mejia/blob/main/Conexion%20Tarjeta%20ESP32,%20Sensor%20DHT22%20y%20pantalla%20LCD.png?raw=true)
 
 8. Agregar al codigo los siguietes codigos al programa para añadir mensajes adicionales como "bienvenido" "al modulo 5"
-      lcd.clear();
+     lcd.clear();
      lcd.setCursor(2, 1);
      lcd.print("Bienvendos");
      delay(1000);
 
-   #include "DHTesp.h"
+#include "DHTesp.h"
 #include <LiquidCrystal_I2C.h>
 #define I2C_ADDR    0x27
 #define LCD_COLUMNS 20
