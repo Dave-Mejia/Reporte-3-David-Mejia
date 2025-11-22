@@ -13,10 +13,10 @@ Sensor de temperatura y húmedad modelo DHT11
 Pantalla LCD 16x2(I2C)
 
 ## Instrucciones
-PREVIO
+### PREVIO
 1. Abrir la plataforma WOKWI.
 
-PREPARACION
+### Preparación
 3. Ir a la pestaña de sketch.ino y borrar el codigo e programación predeterminado
 4. Abrir la terminal de programación y colocar la siguente programación:
 #include "DHTesp.h"
@@ -126,7 +126,7 @@ void loop() {
 }
 
 
-OPERACION
+### Operación
 9. Iniciar simulador dando clic en el icono "play"
 10. Visualizar los datos en el monitor serial.
 11. Colocar la temperatura y humedad dando doble click al sensor DHT11
